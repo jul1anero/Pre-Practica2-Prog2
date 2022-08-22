@@ -5,5 +5,13 @@
 
 
 #INICIO
-
+print("ingrese un numero:")
+a = float(input())
+print("ingrese otro numero:")
+b = float(input())
+try:
+    resultado = a/b
+    print("el resultado es", resultado)
+except ZeroDivisionError as exception:
+    print("el divisor no puede ser cero")
 #FIN
